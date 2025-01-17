@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a0ab762-48ad-4e1a-ac2e-b4fc16c531f5">
+  <producedTypes>
+    <objectType typeId="7bad9a26-ecfb-49f6-a980-a549dca05c81" valueTypeId="fb5d0503-28f5-4484-90f0-25846ee8c4b5"/>
+    <managerType typeId="b2992c3f-aa97-4295-94be-61b599f9550d" valueTypeId="3f92e7cf-8852-4a7d-80d8-2286ffd5b6f0"/>
+  </producedTypes>
+  <name>ВКМ_ВыработкаСпециалистов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выработка специалистов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ВКМ_ВыработкаСпециалистов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="d08b29fd-313d-4b90-8df7-9ba61383c75b">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="e2837d44-3d81-45e3-9425-f5812759e9d1">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

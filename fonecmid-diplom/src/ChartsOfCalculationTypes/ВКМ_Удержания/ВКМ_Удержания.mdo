@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCalculationTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1cd30cc2-37a7-43a1-a864-2492f6dac9b7">
+  <producedTypes>
+    <objectType typeId="466cf62a-7c37-4ce4-96d7-e3933111a368" valueTypeId="0d4dade9-ced7-4a10-b16b-5f5f0301b4a8"/>
+    <refType typeId="a2586308-3109-4725-b094-281e920bd26d" valueTypeId="60178232-5914-4df1-ba9f-a0e1794cb820"/>
+    <selectionType typeId="419ed5c3-8384-400c-982e-7b0c66c144c4" valueTypeId="b89cefeb-15c0-43b5-8a70-77054c305cd3"/>
+    <listType typeId="93b6f8dd-5670-41b4-933f-ae7c7b1c229e" valueTypeId="a39f2142-82a5-4f7f-af6d-477442cbfe88"/>
+    <managerType typeId="cb953ae1-da52-48f1-bd6a-fa9e64347dfd" valueTypeId="0529a323-8085-4fea-bf85-266699e199a1"/>
+    <displacingCalculationTypesType typeId="5dee28a2-6c8e-41a2-ad72-70f75d01fa64" valueTypeId="5725945e-aecf-4557-a96c-a8890d901682"/>
+    <displacingCalculationTypesRowType typeId="549044a1-4171-47fd-992d-ae3f8ae6336a" valueTypeId="084dbf88-6b16-4acc-b4a1-a5f716ba9f52"/>
+    <baseCalculationTypesType typeId="000fa426-4643-4095-8a46-d63e23e51039" valueTypeId="19d3608e-74f9-4c45-afb1-e84881eb125a"/>
+    <baseCalculationTypesRowType typeId="7fd82822-53c6-4ac4-984d-89163d4b4819" valueTypeId="6e6b780d-a61c-4e12-b98a-f961299e9a3a"/>
+    <leadingCalculationTypesType typeId="20454c16-6063-4c2e-b3d8-58bd75f4919a" valueTypeId="9d8040b7-83b6-4826-8600-a7c6b398678c"/>
+    <leadingCalculationTypesRowType typeId="76f185e0-f98b-4ed3-aa20-b18a26385767" valueTypeId="06f89c5f-306e-40d2-976b-dbebee48e7b6"/>
+  </producedTypes>
+  <name>ВКМ_Удержания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удержания</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCalculationTypes.ВКМ_Удержания.StandardAttribute.Code</inputByString>
+  <inputByString>ChartOfCalculationTypes.ВКМ_Удержания.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Удержания</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Удержания</value>
+  </listPresentation>
+  <codeLength>9</codeLength>
+  <descriptionLength>40</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <dependenceOnCalculationTypes>OnRegistrationPeriod</dependenceOnCalculationTypes>
+  <baseCalculationTypes>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</baseCalculationTypes>
+  <baseCalculationTypes>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</baseCalculationTypes>
+  <predefined>
+    <items id="b5123d9a-59f2-43e9-a713-ea1745da8d54">
+      <name>НДФЛ</name>
+      <description>НДФЛ</description>
+      <code xsi:type="core:StringValue">
+        <value>1</value>
+      </code>
+      <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Оклад</base>
+      <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Отпуск</base>
+      <base>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.ПремияОтПродаж</base>
+      <base>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.ПремияФиксированная</base>
+    </items>
+  </predefined>
+  <attributes uuid="6dbc7e3d-d434-413d-8002-a6786d5bbc0d">
+    <name>СпособРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ расчета</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВКМ_СпособРасчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:ChartOfCalculationTypes>
