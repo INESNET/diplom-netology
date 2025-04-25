@@ -9,6 +9,9 @@
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Сотрудник</dataPath>
 			<field>Сотрудник</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>ДниОтпускаПоПлану</dataPath>
@@ -40,31 +43,18 @@
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	ЕСТЬNULL(ВКМ_ОсновныеНачисленияДанныеГрафика.Сотрудник, ВКМ_ДниОтпускаСрезПоследних.Сотрудник) КАК Сотрудник,
-	ЕСТЬNULL(ВКМ_ДниОтпускаСрезПоследних.КоличествоДней, 0) КАК ДниОтпускаПоПлану,
-	ЕСТЬNULL(ВКМ_ОсновныеНачисленияДанныеГрафика.РабочихЧасовФактическийПериодДействия, 0) КАК ДниОтпускаПоФакту
+	ВКМ_ДниОтпускаОбороты.Сотрудник,
+	ВКМ_ДниОтпускаОбороты.КоличествоДнейПриход КАК ДниОтпускаПоПлану,
+	ВКМ_ДниОтпускаОбороты.КоличествоДнейРасход КАК ДниОтпускаПоФакту
 ИЗ
-	РегистрСведений.ВКМ_ДниОтпуска.СрезПоследних(&amp;Период, Период МЕЖДУ &amp;ДатаНачала И &amp;ДатаОкончания) КАК
-		ВКМ_ДниОтпускаСрезПоследних
-		ЛЕВОЕ СОЕДИНЕНИЕ РегистрРасчета.ВКМ_ОсновныеНачисления.ДанныеГрафика(ПериодДействия
-			МЕЖДУ &amp;ДатаНачала И &amp;ДатаОкончания
-		И ВидРасчета.СпособРасчета = &amp;Отпуск) КАК ВКМ_ОсновныеНачисленияДанныеГрафика
-		ПО ВКМ_ДниОтпускаСрезПоследних.Сотрудник = ВКМ_ОсновныеНачисленияДанныеГрафика.Сотрудник</query>
+	РегистрНакопления.ВКМ_ДниОтпуска.Обороты КАК ВКМ_ДниОтпускаОбороты</query>
 	</dataSet>
-	<totalField>
-		<dataPath>ДниОтпускаПоПлану</dataPath>
-		<expression>Сумма(ДниОтпускаПоПлану)</expression>
-	</totalField>
-	<totalField>
-		<dataPath>ДниОтпускаПоФакту</dataPath>
-		<expression>Сумма(ДниОтпускаПоФакту)</expression>
-	</totalField>
 	<parameter>
-		<name>Период</name>
+		<name>НачалоПериода</name>
 		<title xsi:type="v8:LocalStringType">
 			<v8:item>
 				<v8:lang>ru</v8:lang>
-				<v8:content>Период</v8:content>
+				<v8:content>Начало периода</v8:content>
 			</v8:item>
 		</title>
 		<valueType>
@@ -74,13 +64,14 @@
 			</v8:DateQualifiers>
 		</valueType>
 		<useRestriction>false</useRestriction>
+		<expression>НАЧАЛОПЕРИОДА(&amp;Период.ДатаОкончания, "Год")</expression>
 	</parameter>
 	<parameter>
-		<name>ДатаОкончания</name>
+		<name>КонецПериода</name>
 		<title xsi:type="v8:LocalStringType">
 			<v8:item>
 				<v8:lang>ru</v8:lang>
-				<v8:content>Дата окончания</v8:content>
+				<v8:content>Конец периода</v8:content>
 			</v8:item>
 		</title>
 		<valueType>
@@ -89,37 +80,22 @@
 				<v8:DateFractions>DateTime</v8:DateFractions>
 			</v8:DateQualifiers>
 		</valueType>
-		<useRestriction>true</useRestriction>
+		<useRestriction>false</useRestriction>
+		<expression>КОНЕЦПЕРИОДА(&amp;Период.ДатаОкончания, "Год")</expression>
 	</parameter>
 	<parameter>
-		<name>ДатаНачала</name>
+		<name>Период</name>
 		<title xsi:type="v8:LocalStringType">
 			<v8:item>
 				<v8:lang>ru</v8:lang>
-				<v8:content>Дата начала</v8:content>
+				<v8:content>Период</v8:content>
 			</v8:item>
 		</title>
 		<valueType>
-			<v8:Type>xs:dateTime</v8:Type>
-			<v8:DateQualifiers>
-				<v8:DateFractions>DateTime</v8:DateFractions>
-			</v8:DateQualifiers>
+			<v8:Type>v8:StandardPeriod</v8:Type>
 		</valueType>
-		<useRestriction>true</useRestriction>
-	</parameter>
-	<parameter>
-		<name>Отпуск</name>
-		<title xsi:type="v8:LocalStringType">
-			<v8:item>
-				<v8:lang>ru</v8:lang>
-				<v8:content>Отпуск</v8:content>
-			</v8:item>
-		</title>
-		<valueType>
-			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:EnumRef.ВКМ_СпособРасчета</v8:Type>
-		</valueType>
-		<value xsi:type="dcscor:DesignTimeValue">Перечисление.ВКМ_СпособРасчета.Отпуск</value>
-		<useRestriction>true</useRestriction>
+		<value xsi:nil="true"/>
+		<useRestriction>false</useRestriction>
 	</parameter>
 	<settingsVariant>
 		<dcsset:name>Основной</dcsset:name>
@@ -139,19 +115,10 @@
 			<dcsset:dataParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>Период</dcscor:parameter>
-					<dcsset:userSettingID>0222975f-4b4f-438d-bad7-7d13f02382b4</dcsset:userSettingID>
+					<dcscor:value xsi:nil="true"/>
+					<dcsset:userSettingID>5c9f2f09-abef-4db5-b559-e941f33e2365</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
-			<dcsset:outputParameters>
-				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:parameter>ГоризонтальноеРасположениеОбщихИтогов</dcscor:parameter>
-					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">None</dcscor:value>
-				</dcscor:item>
-				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:parameter>ВертикальноеРасположениеОбщихИтогов</dcscor:parameter>
-					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">None</dcscor:value>
-				</dcscor:item>
-			</dcsset:outputParameters>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
 				<dcsset:order>
 					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>

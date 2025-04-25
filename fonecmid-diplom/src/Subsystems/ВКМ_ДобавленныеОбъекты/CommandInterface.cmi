@@ -38,7 +38,6 @@
     <placementFragments>
       <group>NavigationPanelSeeAlso</group>
       <commands>InformationRegister.ВКМ_ГрафикиРаботы.StandardCommand.OpenList</commands>
-      <commands>InformationRegister.ВКМ_ДниОтпуска.StandardCommand.OpenList</commands>
       <commands>InformationRegister.ВКМ_УсловияОплатыСотрудников.StandardCommand.OpenList</commands>
     </placementFragments>
   </commandsPlacement>
@@ -46,7 +45,6 @@
     <orderFragments>
       <group>NavigationPanelSeeAlso</group>
       <commands>InformationRegister.ВКМ_ГрафикиРаботы.StandardCommand.OpenList</commands>
-      <commands>InformationRegister.ВКМ_ДниОтпуска.StandardCommand.OpenList</commands>
       <commands>InformationRegister.ВКМ_УсловияОплатыСотрудников.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>

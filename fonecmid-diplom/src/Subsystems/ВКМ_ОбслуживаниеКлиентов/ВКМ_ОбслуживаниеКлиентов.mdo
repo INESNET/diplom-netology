@@ -14,7 +14,6 @@
   <content>DataProcessor.ВКМ_ЗаполнениеГрафика</content>
   <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
   <content>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</content>
-  <content>InformationRegister.ВКМ_ДниОтпуска</content>
   <content>Enum.ВидыДоговоровКонтрагентов</content>
   <content>Catalog.ВКМ_ФизическиеЛица</content>
   <content>Catalog.ВКМ_Подразделения</content>
@@ -24,6 +23,11 @@
   <content>Report.ВКМ_ВыработкаСпециалистов</content>
   <content>Report.ВКМ_АнализВыставленныхАктов</content>
   <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
+  <content>AccumulationRegister.ВКМ_ДниОтпуска</content>
+  <content>Constant.ВКМ_НоменклатураАбонентскаяПлата</content>
+  <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
+  <content>Constant.ВКМ_ТокенТГ</content>
+  <content>Constant.ВКМ_ИдентификаторГруппыТГ</content>
   <subsystems>Справочники</subsystems>
   <subsystems>Операции</subsystems>
 </mdclass:Subsystem>

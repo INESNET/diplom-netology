@@ -391,7 +391,7 @@
 			</c>
 			<c>
 				<c>
-					<f>9</f>
+					<f>12</f>
 					<parameter>СуммаПрописью</parameter>
 				</c>
 			</c>
@@ -488,7 +488,7 @@
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>12</defaultFormatIndex>
+	<defaultFormatIndex>13</defaultFormatIndex>
 	<height>19</height>
 	<vgRows>19</vgRows>
 	<merge>
@@ -598,6 +598,7 @@
 	<format>
 		<border>0</border>
 		<width>149</width>
+		<textPlacement>Wrap</textPlacement>
 		<fillType>Parameter</fillType>
 		<columnSizeChange>Normal</columnSizeChange>
 	</format>
@@ -605,6 +606,11 @@
 		<font>2</font>
 		<border>0</border>
 		<horizontalAlignment>Left</horizontalAlignment>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<border>0</border>
+		<textPlacement>Wrap</textPlacement>
 		<fillType>Parameter</fillType>
 	</format>
 	<format>
