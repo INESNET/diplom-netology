@@ -113,14 +113,6 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>Posting</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UndoPosting</name>
-			<value>true</value>
-		</right>
-		<right>
 			<name>View</name>
 			<value>true</value>
 		</right>
@@ -130,66 +122,6 @@
 		</right>
 		<right>
 			<name>Edit</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMark</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractivePosting</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractivePostingRegular</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveUndoPosting</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveChangeOfPosted</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InputByString</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ReadDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ReadDataHistoryOfMissingData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryOfMissingData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistorySettings</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -219,54 +151,6 @@
 			<name>Edit</name>
 			<value>true</value>
 		</right>
-		<right>
-			<name>InteractiveSetDeletionMark</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMark</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InputByString</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ReadDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ReadDataHistoryOfMissingData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryOfMissingData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistorySettings</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
-			<value>true</value>
-		</right>
 	</object>
 	<object>
 		<name>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</name>
@@ -284,10 +168,6 @@
 		</right>
 		<right>
 			<name>Edit</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>TotalsControl</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -317,54 +197,6 @@
 			<name>Edit</name>
 			<value>true</value>
 		</right>
-		<right>
-			<name>InteractiveSetDeletionMark</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMark</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InputByString</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ReadDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ReadDataHistoryOfMissingData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryOfMissingData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistorySettings</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
-			<value>true</value>
-		</right>
 	</object>
 	<object>
 		<name>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</name>
@@ -382,10 +214,6 @@
 		</right>
 		<right>
 			<name>Edit</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>TotalsControl</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -413,54 +241,6 @@
 		</right>
 		<right>
 			<name>Edit</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveSetDeletionMark</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMark</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InputByString</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ReadDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ReadDataHistoryOfMissingData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryOfMissingData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistorySettings</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -501,52 +281,31 @@
 			<name>Edit</name>
 			<value>true</value>
 		</right>
+	</object>
+	<object>
+		<name>Catalog.Пользователи</name>
 		<right>
-			<name>InteractiveSetDeletionMark</name>
+			<name>Read</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>InteractiveClearDeletionMark</name>
+			<name>Insert</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>InputByString</name>
+			<name>Update</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>ReadDataHistory</name>
+			<name>View</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>ReadDataHistoryOfMissingData</name>
+			<name>InteractiveInsert</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>UpdateDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryOfMissingData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistorySettings</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
+			<name>Edit</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -641,34 +400,6 @@
 			<name>Edit</name>
 			<value>true</value>
 		</right>
-		<right>
-			<name>ReadDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistorySettings</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
-			<value>true</value>
-		</right>
 	</object>
 	<object>
 		<name>Document.ВКМ_ОбслуживаниеКлиента</name>
@@ -685,14 +416,6 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>Posting</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UndoPosting</name>
-			<value>true</value>
-		</right>
-		<right>
 			<name>View</name>
 			<value>true</value>
 		</right>
@@ -702,66 +425,6 @@
 		</right>
 		<right>
 			<name>Edit</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMark</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractivePosting</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractivePostingRegular</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveUndoPosting</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveChangeOfPosted</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InputByString</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ReadDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ReadDataHistoryOfMissingData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryOfMissingData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistorySettings</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -781,10 +444,6 @@
 		</right>
 		<right>
 			<name>Edit</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>TotalsControl</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -839,34 +498,6 @@
 			<name>Edit</name>
 			<value>true</value>
 		</right>
-		<right>
-			<name>ReadDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistorySettings</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
-			<value>true</value>
-		</right>
 	</object>
 	<object>
 		<name>Constant.ВКМ_НоменклатураРаботыСпециалиста</name>
@@ -884,34 +515,6 @@
 		</right>
 		<right>
 			<name>Edit</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ReadDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistorySettings</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -941,81 +544,6 @@
 			<name>Edit</name>
 			<value>true</value>
 		</right>
-		<right>
-			<name>InteractiveSetDeletionMark</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMark</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InputByString</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ReadDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ReadDataHistoryOfMissingData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryOfMissingData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistorySettings</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Configuration.УправлениеITФирмой</name>
-		<right>
-			<name>MainWindowModeNormal</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MainWindowModeWorkplace</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MainWindowModeEmbeddedWorkplace</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MainWindowModeFullscreenWorkplace</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MainWindowModeKiosk</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>AnalyticsSystemClient</name>
-			<value>true</value>
-		</right>
 	</object>
 	<object>
 		<name>Constant.ВКМ_ИдентификаторГруппыТГ</name>
@@ -1033,34 +561,6 @@
 		</right>
 		<right>
 			<name>Edit</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ReadDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistorySettings</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -1149,54 +649,6 @@
 			<name>Edit</name>
 			<value>true</value>
 		</right>
-		<right>
-			<name>InteractiveSetDeletionMark</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMark</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InputByString</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ReadDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ReadDataHistoryOfMissingData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryOfMissingData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistorySettings</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
-			<value>true</value>
-		</right>
 	</object>
 	<object>
 		<name>Catalog.ВКМ_ГрафикиРаботы</name>
@@ -1222,50 +674,6 @@
 		</right>
 		<right>
 			<name>Edit</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMark</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InputByString</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ReadDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ReadDataHistoryOfMissingData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryOfMissingData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistorySettings</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -1295,52 +703,31 @@
 			<name>Edit</name>
 			<value>true</value>
 		</right>
+	</object>
+	<object>
+		<name>Catalog.Организации</name>
 		<right>
-			<name>InteractiveSetDeletionMark</name>
+			<name>Read</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>InteractiveClearDeletionMark</name>
+			<name>Insert</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>InputByString</name>
+			<name>Update</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>ReadDataHistory</name>
+			<name>View</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>ReadDataHistoryOfMissingData</name>
+			<name>InteractiveInsert</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>UpdateDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryOfMissingData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistorySettings</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
+			<name>Edit</name>
 			<value>true</value>
 		</right>
 	</object>
